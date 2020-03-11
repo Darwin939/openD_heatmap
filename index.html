@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тепловая карта</title>
+    <link rel="stylesheet" href="mysite.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="first_block">
+        <h1 style="text-align: center;">
+          Тепловая карта на основе данных с сергек Метео
+        </h1>
+
+        <p>
+          Немногие знают, но в состав проекта «Сергек» в городе Нур-Султан
+          входит 50 экодатчиков - самостоятельных приборов для измерения
+          качества воздуха. Основной показатель, который они измеряют -
+          количество мелкодисперсных частиц в воздухе. Это такие мелкие частицы
+          пыли, пыльцы, аэрозолей, сажи, и других веществ в воздухе. В столице
+          данные собираются с 50 датчиков в разных районах города, которые также
+          фиксируют температуру, влажность и уровень содержания углекислого
+          газа. Они позволяют отслеживать состояние воздуха и зонировать
+          источники загрязнений. Показания с датчиков поступают несколько раз в
+          минуту. Посмотреть данные с датчиков можно на сайте www.opendata.kz. В
+          скором времени эта информация будет доступна и в приложении Smart
+          Astana для удобства горожан.
+        </p>
+        <div id="map">
+          <script src="/Leaflet.heat-gh-pages/dist/leaflet-heat.js"></script>
+          <script src="/scripts/map_and_heat_map.js" type="module"></script>
+          <script src="/scripts/read_json_file.js" type="module"></script>
+        </div>
+        <br />
+      </div>
+    </div>
+  </body>
+</html>
