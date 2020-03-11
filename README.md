@@ -1,6 +1,6 @@
 # openD_heatmap
 
-visualize data(heat map) from opendata.kz data`s
+visualize data(heat map) from opendata.kz
 
 1.Открыть index.html
-2.Для обновления данных (real time) использовать скрипт parser.py во внутренней директории
+2.Для обновления данных (real time) использовать скрипт parser.py в директории python_scripts
