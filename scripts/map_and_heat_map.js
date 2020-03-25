@@ -8,4 +8,4 @@ L.tileLayer(
       '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
   }
 ).addTo(map);
-var heat = L.heatLayer(my_new_data, { max:2  }, { radius: 200 }).addTo(map);
+var heat = L.heatLayer(my_new_data, { max:0.7  }, { radius: 200 }).addTo(map);
