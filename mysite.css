@@ -44,3 +44,17 @@ iframe {
 span{
 margin-left: 300px;
 }
+.second_block {
+  margin-top: 0px;
+  height: 1920px;
+  width: auto;
+  background-image: url(src/world_map.png);
+}
+
+.open_data_loc{
+  margin-top: 200px;
+}
+h3{
+  margin-left: 300px;
+}
+
